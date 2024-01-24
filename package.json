@@ -1,13 +1,13 @@
 {
   "name": "@mohanadoo/react-basics",
-  "version": "0.122.0",
+  "version": "0.122.1",
   "description": "Everyday components for React",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umami-software/react-basics.git"
+    "url": "git+https://github.com/MohanadOO/react-basics.git"
   },
-  "homepage": "https://umami-software.github.io/react-basics",
+  "homepage": "https://mohanadoo.github.io/react-basics/",
   "browserslist": [
     "> 0.25%",
     "not dead"
