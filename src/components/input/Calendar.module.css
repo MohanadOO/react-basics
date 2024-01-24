@@ -99,8 +99,20 @@
   transform: rotate(-90deg);
 }
 
+.left:dir(rtl) svg {
+  transform: rotate(-90deg);
+}
+
+.right:dir(rtl) svg {
+  transform: rotate(90deg);
+}
+
 .icon {
-  margin-left: 10px;
+  margin-inline-start: 10px;
+}
+
+.rotate:dir(rtl) {
+  transform: rotate(180deg);
 }
 
 @media only screen and (max-width: 992px) {

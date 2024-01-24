@@ -35,7 +35,7 @@
 }
 
 .checkbox.checked .box {
-  color: var(--base50);
+  color: var(--dark50);
   background: var(--primary400);
   border-color: var(--primary700);
 }

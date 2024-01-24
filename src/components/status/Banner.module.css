@@ -12,6 +12,13 @@
   gap: 20px;
 }
 
+.none {
+  color: var(--dark50);
+}
+
+.none.outline {
+}
+
 .success {
   background: var(--status-success-color);
 }

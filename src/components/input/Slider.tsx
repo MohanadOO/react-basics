@@ -70,6 +70,7 @@ export function Slider(props: SliderProps) {
 
   return (
     <div
+      dir="ltr"
       className={classNames(styles.slider, className, {
         [styles.disabled]: disabled,
         [styles.left]: fill === 'left',

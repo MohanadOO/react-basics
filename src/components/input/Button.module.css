@@ -31,17 +31,17 @@
 }
 
 .button.primary {
-  color: var(--light50);
+  color: var(--dark50);
   background: var(--primary400);
 }
 
 .button.primary:hover {
-  color: var(--light50);
+  color: var(--dark50);
   background: var(--primary500);
 }
 
 .button.primary:active {
-  color: var(--light50);
+  color: var(--dark50);
   background: var(--primary600);
 }
 

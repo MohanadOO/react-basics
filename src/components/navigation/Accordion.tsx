@@ -54,8 +54,8 @@ export function Accordion(props: AccordianProps): JSX.Element {
               onClick={handleExpand.bind(null, value)}
             >
               <div>{label}</div>
-              <Icon rotate={expand ? 0 : -90}>
-                <Icons.ChevronDown />
+              <Icon rotate={expand ? 0 : -90} className={styles.icon}>
+                <Icons.ChevronDown className={styles.icon} />
               </Icon>
             </div>
             {children && (

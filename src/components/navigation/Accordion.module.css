@@ -55,3 +55,7 @@
 .accordian.quiet .group {
   border: 0;
 }
+
+.icon:dir(rtl) {
+  transform: rotate(180deg);
+}

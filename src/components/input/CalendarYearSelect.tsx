@@ -48,7 +48,7 @@ export function CalendarYearSelect(props: CalendarYearSelectProps) {
   return (
     <div className={styles.pager}>
       <div className={styles.left}>
-        <Button size="sm" variant="quiet" onClick={handlePrevClick} disabled={years[0] <= minYear}>
+        <Button size="sm" onClick={handlePrevClick} disabled={years[0] <= minYear}>
           <Icon>
             <Icons.ChevronDown />
           </Icon>
